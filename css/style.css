@@ -36,6 +36,8 @@
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 15px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 
@@ -53,4 +55,16 @@
 
 .paragrafo-immagine {
     font-size: 20px;
+}
+
+/* titolo del main---------------------------------  */
+.titolo-main {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.sottotitolo-main {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
 }
