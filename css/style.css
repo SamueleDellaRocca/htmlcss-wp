@@ -143,10 +143,11 @@ html {
 
 /*  footer  */
 footer {
-    padding-top: 100px;
     font-size: 30px;
     width: 200px;
     margin: auto;
+    margin-top: 50px;
+
 }
 
 .cuore {
