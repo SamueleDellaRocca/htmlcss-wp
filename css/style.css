@@ -71,6 +71,13 @@
     font-weight: bold;
 }
 
+/* clearfix  */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* caratteristiche comuni delle colonne, sotto le caratteristiche specifiche delle colonne  */
 .colonna {
     float: left;
@@ -118,13 +125,26 @@
 }
 
 /* modifico le caratteristiche de titoli e del testo  */
+.titolini {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 .paragrafo-testo {
     color: gray;
     font-size: 25px;
 }
 
-.titolini {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 15px;
+
+/*  footer  */
+footer {
+    margin-top: 50px;
+    font-size: 30px;
+    width: 200px;
+    margin: auto;
+}
+
+.cuore {
+    color: red;
 }
