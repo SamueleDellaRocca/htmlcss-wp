@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 2100px;
+}
+
+
+/* logo e titolo------------------  */
+.logo-titolo {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+/* nav--------------------------- */
+.link-nav {
+    text-decoration: none;
+    color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+/* dimesioni dell immagine dell header  */
+.immagine-header {
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+
+/* caratteristiche del testo dentro l immagine dell header  */
+.posizione {
+    color: white;
+    width: 60%;
+    padding-left: 100px;
+}
+
+.titolo-immagine {
+    padding-top: 450px;
+    font-size: 2.5em;
+}
+
+.paragrafo-immagine {
+    font-size: 20px;
+}
