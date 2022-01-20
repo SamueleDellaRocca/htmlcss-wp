@@ -129,6 +129,7 @@ html {
     margin-right: 2%;
     background-image: url(../img/banner-2.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .img-n3 {
